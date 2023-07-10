@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 import openai as op
 
-op.api_key='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'
-op.organization='org-Yo1JN6VlDoZBuPwiLbGxWPgm'
+op.api_key='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'
+op.organization='org-VIXUQ6yjxGQioPSLM1i12zze'
 
 class Model(BaseModel):
     tipo : int
